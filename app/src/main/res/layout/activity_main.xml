@@ -11,32 +11,62 @@
             android:id="@+id/button_cyan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cyan" />
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Cyan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/results_listView" />
 
         <Button
             android:id="@+id/button_yellow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yellow" />
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Yellow"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button_cyan"
+            app:layout_constraintStart_toEndOf="@+id/button_cyan" />
 
         <Button
             android:id="@+id/button_delete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Delete" />
-
-        <ImageView
-            android:id="@+id/image_profile"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/edit" />
-
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Delete"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button_yellow"
+            app:layout_constraintStart_toEndOf="@+id/button_yellow" />
 
 
         <ListView
             android:id="@+id/results_listView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/button_cyan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ListView>
+
+        <ImageView
+            android:id="@+id/image_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.453"
+            app:layout_constraintStart_toEndOf="@+id/button_delete"
+            app:layout_constraintTop_toBottomOf="@+id/results_listView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
