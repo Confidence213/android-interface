@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Address book</string>
+    <string-array name="array_ofNames">
+        <item>Maria Andersson</item>
+        <item>Malgorzata Pick</item>
+        <item>Jan Kowalski</item>
+        <item>James Bond</item>
+        <item>Maria Gonzales</item>
+        <item>Maria Andersson</item>
+        <item>Malgorzata Pick</item>
+        <item>Jan Kowalski</item>
+        <item>James Bond</item>
+        <item>Maria Gonzales</item>
+        <item>Maria Andersson</item>
+        <item>Malgorzata Pick</item>
+        <item>Jan Kowalski</item>
+        <item>James Bond</item>
+        <item>Maria Gonzales</item>
+    </string-array>
+
+    <string-array name="array_ofAddresses">
+        <item>Svenssongatan 55, Helsingborg, Sweden</item>
+        <item>Agnesfridsvägen 999, Malmö, Sweden</item>
+        <item>ul. Wiatrakowa 5, Warszawa, Poland</item>
+        <item>SunBoulevard 333, LA, USA</item>
+        <item>Rapido 210, Madrid, Spanien</item>
+        <item>Svenssongatan 55, Helsingborg, Sweden</item>
+        <item>Agnesfridsvägen 999, Malmö, Sweden</item>
+        <item>ul. Wiatrakowa 5, Warszawa, Poland</item>
+        <item>SunBoulevard 333, LA, USA</item>
+        <item>Rapido 210, Madrid, Spanien</item>
+        <item>Svenssongatan 55, Helsingborg, Sweden</item>
+        <item>Agnesfridsvägen 999, Malmö, Sweden</item>
+        <item>ul. Wiatrakowa 5, Warszawa, Poland</item>
+        <item>SunBoulevard 333, LA, USA</item>
+        <item>Rapido 210, Madrid, Spanien</item>
+    </string-array>
+
+</resources>
